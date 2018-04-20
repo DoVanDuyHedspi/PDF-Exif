@@ -1,5 +1,5 @@
 {
-    "name": "vanduy/pdf_exif",
+    "name": "vanduy/pdf-exif",
     "description": "get title,author,.. from pdf file",
     "type": "project",
     "require-dev": {
