@@ -25,7 +25,7 @@ class PDFExif
             try{
                 $this->indoc = $this->p->open_pdi_document(realpath($filePDF),"");
             }catch (\Exception $e){
-                throw new PathNotFoundException('Can\'t found file pdf');
+                throw new PathNotFoundException('Can\'t find file pdf');
             }
             if ($this->indoc != 0) {
                 $this->setInfoKeys();
