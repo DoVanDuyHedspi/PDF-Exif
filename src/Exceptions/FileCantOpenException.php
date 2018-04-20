@@ -6,7 +6,7 @@
  * Time: 3:01 PM
  */
 
-namespace App\Exceptions;
+namespace PdfExif\Exceptions;
 
 
 class FileCantOpenException extends \Exception

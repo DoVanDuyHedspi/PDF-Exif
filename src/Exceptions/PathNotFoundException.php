@@ -6,7 +6,7 @@
  * Time: 2:56 PM
  */
 
-namespace App\Exceptions;
+namespace PdfExif\Exceptions;
 
 //include __DIR__ . '/../../vendor/autoload.php';
 

@@ -5,13 +5,11 @@
  * Date: 4/17/2018
  * Time: 11:25 AM
  */
-namespace App;
+namespace PdfExif;
 
-include __DIR__ . '/../vendor/autoload.php';
-
-use App\Exceptions\FileCantOpenException;
-use App\Exceptions\PathEmptyException;
-use App\Exceptions\PathNotFoundException;
+use PdfExif\Exceptions\FileCantOpenException;
+use PdfExif\Exceptions\PathEmptyException;
+use PdfExif\Exceptions\PathNotFoundException;
 
 class PDFExif
 {

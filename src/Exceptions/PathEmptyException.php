@@ -6,7 +6,7 @@
  * Time: 2:19 PM
  */
 
-namespace App\Exceptions;
+namespace PdfExif\Exceptions;
 
 
 class PathEmptyException extends \Exception

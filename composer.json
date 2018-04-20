@@ -6,12 +6,12 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "PdfExif\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/"
+            "TestsPdfExif\\": "tests/"
         }
     },
     "authors": [

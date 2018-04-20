@@ -5,13 +5,13 @@
  * Date: 4/20/2018
  * Time: 8:22 AM
  */
-include __DIR__ . '/../Vendor/Autoload.php';
+
 
 use PHPUnit\Framework\TestCase;
-use App\PDFExif;
-use App\Exceptions\PathNotFoundException;
-use App\Exceptions\FileCantOpenException;
-use App\Exceptions\PathEmptyException;
+use PdfExif\PDFExif;
+use PdfExif\Exceptions\PathNotFoundException;
+use PdfExif\Exceptions\FileCantOpenException;
+use PdfExif\Exceptions\PathEmptyException;
 class PDFExifTest extends TestCase
 {
     public function testPathNotFound()
