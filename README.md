@@ -18,7 +18,7 @@ Có 2 kiểu lấy dữ liệu.
 ```php
 $data = $file->getAllInfoKeys();
 ```
-- Lấy từng dữ liệu (Title, Author, Creator...)
+- Lấy từng thông tin (Title, Author, Creator...)
 ```php
 $title = $file->get('Title')
 ```
