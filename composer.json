@@ -1,7 +1,6 @@
 {
     "name": "vanduy/pdf-exif",
     "description": "get title,author,.. from pdf file",
-    "type": "project",
     "require-dev": {
         "phpunit/phpunit": "^7"
     },
